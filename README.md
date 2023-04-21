@@ -1,6 +1,24 @@
 
+# Node Shell Cmd
+
 
 Simple utility implemented on top of `child_process` to run shell commands with many configurable runtime options
+
+
+# Usage
+
+
+```
+npm i --save @boltkit/node-shell-cmd
+```
+
+```
+// inside MJS module
+import {ShellCommand} from "@boltkit/node-shell-cmd"
+
+// inside CJS module
+const {ShellCommand} = require("@boltkit/node-shell-cmd");
+```
 
 
 # All options
