@@ -30,7 +30,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "node-shell-cmd",
+  "name": "@boltkit/node-shell-cmd",
   "author": "Dmitri Chapkine",
   "module": "dist/node-shell-cmd.esm.js",
   "size-limit": [
@@ -50,5 +50,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.5.0",
     "typescript": "^3.9.10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
